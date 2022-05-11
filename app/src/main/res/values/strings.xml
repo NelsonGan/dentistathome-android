@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DentistAtHome</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now"><u>New User? Register Now</u></string>
+    <string name="registration">Registration</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account"><u>Already have an account?</u></string>
+    <string name="complete_your_registration">Complete your registration</string>
+    <string name="name">Name</string>
+    <string name="address_line_1">Address (Line 1)</string>
+    <string name="address_line_2">Address (Line 2)</string>
+    <string name="address">Address</string>
+    <string name="gender">Gender</string>
+    <string name="role">Role</string>
+    <string name="complete_registration">Complete Registration</string>
+
+    <!-- Spinner Values-->
+    <string-array name="Genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Roles">
+        <item>User</item>
+        <item>Dentist</item>
+    </string-array>
+</resources>

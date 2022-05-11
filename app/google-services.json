@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "857770462963",
+    "project_id": "dentistathome-58c1c",
+    "storage_bucket": "dentistathome-58c1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857770462963:android:84fd4f51d1f918c904f186",
+        "android_client_info": {
+          "package_name": "com.nelsongan.dentistathome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857770462963-7l40vks4hqddtbnoqteqf32uqqc588i0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nelsongan.dentistathome",
+            "certificate_hash": "a40a0bfd94bbb4ba61708e19ec371ab1ae77afbd"
+          }
+        },
+        {
+          "client_id": "857770462963-8m345v89892ue8b1g3q1dc65g0na3ta6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI5xKaZgKZKMkD9HdZNgRAb2_ynRY7VYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857770462963-8m345v89892ue8b1g3q1dc65g0na3ta6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
