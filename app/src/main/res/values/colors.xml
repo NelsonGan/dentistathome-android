@@ -20,6 +20,16 @@
     <color name="purple_800">#7B1FA2</color>
     <color name="purple_900">#6A1B9A</color>
 
+    <color name="grey_100">#FAFAFA</color>
+    <color name="grey_200">#F5F5F5</color>
+    <color name="grey_300">#EEEEEE</color>
+    <color name="grey_400">#E0E0E0</color>
+    <color name="grey_500">#BDBDBD</color>
+    <color name="grey_600">#9E9E9E</color>
+    <color name="grey_700">#757575</color>
+    <color name="grey_800">#616161</color>
+    <color name="grey_900">#424242</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

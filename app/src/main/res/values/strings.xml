@@ -21,6 +21,15 @@
     <string name="gender">Gender</string>
     <string name="role">Role</string>
     <string name="complete_registration">Complete Registration</string>
+    <string name="inspection">Inspection</string>
+    <string name="appointment">Appointment</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+
+    <!-- Description -->
+    <string name="appointment_description">Book an appointment</string>
+    <string name="inspection_description">Schedule a digital dental inspection</string>
+    <string name="account_description">View your account details</string>
 
     <!-- Spinner Values-->
     <string-array name="Genders">

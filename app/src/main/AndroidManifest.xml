@@ -10,16 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DentistAtHome">
         <activity
+            android:name=".users.screens.InspectionShowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".users.screens.InspectionCreateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".users.screens.InspectionIndexActivity"
+            android:exported="false" />
+        <activity
             android:name=".auth.screens.CompleteRegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".auth.screens.LoginActivity"
+            android:name=".misc.screens.MenuActivity"
             android:exported="false" />
         <activity
             android:name=".auth.screens.RegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".misc.screens.MenuActivity"
+            android:name=".auth.screens.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
