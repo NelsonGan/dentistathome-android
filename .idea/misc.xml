@@ -3,29 +3,66 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/drawable/ic_baseline_tag_faces.xml" value="0.2785" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/drawable/ic_email.xml" value="0.2785" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/layout/activity_complete_registration.xml" value="0.3625" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/layout/activity_inspection_index.xml" value="0.3625" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/layout/activity_inspection_show.xml" value="0.3625" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/layout/activity_login.xml" value="0.3625" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/layout/activity_menu.xml" value="0.3625" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/layout/activity_register.xml" value="0.3625" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/layout/appbar.xml" value="0.3625" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/layout/toolbar.xml" value="0.3625" />
-        <entry key="..\:/Users/nelson/StudioProjects/dentistathome-android/app/src/main/res/menu/menu.xml" value="0.3625" />
+        <entry key="../../../../layout/custom_preview.xml" value="0.13874873864783047" />
+        <entry key="app/src/main/res/drawable/btn_background_grey.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/circle_border.xml" value="0.402" />
+        <entry key="app/src/main/res/drawable/grey_bg.xml" value="0.402" />
+        <entry key="app/src/main/res/drawable/grey_gradient_background.xml" value="0.244" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.403" />
+        <entry key="app/src/main/res/drawable/ic_appointment.xml" value="0.2245" />
         <entry key="app/src/main/res/drawable/ic_baseline.xml" value="0.2075" />
+        <entry key="app/src/main/res/drawable/ic_doctor.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_edit_profile.xml" value="0.403" />
         <entry key="app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_help.xml" value="0.403" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.2595" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2975" />
         <entry key="app/src/main/res/drawable/ic_lock.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/ic_logout.xml" value="0.403" />
         <entry key="app/src/main/res/drawable/ic_person.xml" value="0.2075" />
+        <entry key="app/src/main/res/drawable/ic_person_female.xml" value="0.244" />
+        <entry key="app/src/main/res/drawable/ic_privacy.xml" value="0.403" />
+        <entry key="app/src/main/res/drawable/ic_verified.xml" value="0.403" />
+        <entry key="app/src/main/res/drawable/ic_view_profile.xml" value="0.311" />
+        <entry key="app/src/main/res/drawable/ic_write.xml" value="0.403" />
+        <entry key="app/src/main/res/drawable/rectangle_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rectangle_border.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/round_bg.xml" value="0.1645" />
         <entry key="app/src/main/res/drawable/round_border.xml" value="0.1645" />
         <entry key="app/src/main/res/drawable/wave.xml" value="0.2075" />
-        <entry key="app/src/main/res/layout/activity_complete_registration.xml" value="0.2500658180570679" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.24849395751953124" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout-v23/fragment_login.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/activity_complete_registration.xml" value="0.3043365478515625" />
+        <entry key="app/src/main/res/layout/activity_inspection_create.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_inspection_index.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_inspection_review.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/activity_inspection_review_index.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_inspection_show.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.22244415283203128" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25280898876404495" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.24663391113281252" />
-        <entry key="app/src/main/res/layout/activity_register.xml" value="0.39129791259765623" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.3102783203125" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_add_review.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_appointment_index.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_complete_registration.xml" value="0.36040539863782056" />
+        <entry key="app/src/main/res/layout/fragment_edit_profile.xml" value="0.25428466796874993" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.38958333333333334" />
+        <entry key="app/src/main/res/layout/fragment_inspection_create.xml" value="0.3170537312825521" />
+        <entry key="app/src/main/res/layout/fragment_inspection_index.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_inspection_review.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_inspection_review_index.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_inspection_show.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.193389892578125" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.4036458333333333" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_user_show.xml" value="0.3577981651376147" />
+        <entry key="app/src/main/res/layout/list_appointment_item.xml" value="0.40260416666666665" />
+        <entry key="app/src/main/res/layout/list_inspection.xml" value="0.33767089843750003" />
+        <entry key="app/src/main/res/layout/list_inspection_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/list_review_item.xml" value="0.40260416666666665" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.38958333333333334" />
       </map>
     </option>
   </component>
@@ -38,7 +75,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.24849395751953124" />
+        <option name="scale" value="0.4036458333333333" />
       </ProjectState>
     </option>
   </component>

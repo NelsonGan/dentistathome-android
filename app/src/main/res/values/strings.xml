@@ -3,11 +3,9 @@
     <string name="top_icon">TOP ICON</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="login">LOGIN</string>
+    <string name="login">Login</string>
     <string name="forgot_password">FORGOT PASSWORD?</string>
     <string name="or">OR</string>
-    <string name="google_icon">google icon</string>
-    <string name="facebook_icon">facebook icon</string>
     <string name="new_user_register_now"><u>New User? Register Now</u></string>
     <string name="registration">Registration</string>
     <string name="confirm_password">Confirm Password</string>
@@ -21,15 +19,23 @@
     <string name="gender">Gender</string>
     <string name="role">Role</string>
     <string name="complete_registration">Complete Registration</string>
-    <string name="inspection">Inspection</string>
-    <string name="appointment">Appointment</string>
+    <string name="inspection">Inspections</string>
+    <string name="appointment">Appointments</string>
     <string name="account">Account</string>
     <string name="logout">Logout</string>
 
     <!-- Description -->
-    <string name="appointment_description">Book an appointment</string>
-    <string name="inspection_description">Schedule a digital dental inspection</string>
-    <string name="account_description">View your account details</string>
+    <string name="add">Add</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="upload_image_inspection">Upload Image (Inspection)</string>
+    <string name="upload">Upload</string>
+    <string name="describe_your_issue">Describe your issue</string>
+    <string name="description">Description</string>
+    <string name="how_long_has_the_issue_persisted">How long has the issue persisted?</string>
+    <string name="duration">Duration</string>
+    <string name="have_this_happened_before_describe_in_details">Have this happened before? Describe in details.</string>
+    <string name="submit">Submit</string>
 
     <!-- Spinner Values-->
     <string-array name="Genders">
@@ -41,4 +47,9 @@
         <item>User</item>
         <item>Dentist</item>
     </string-array>
+
+    <!-- Home Page -->
+    <string name="home_page_description">Oral health has always been vital to an individual’s overall health and well-being. Studies have shown that bad oral health might contribute to various diseases such as endocarditis, cardiovascular disease, pneumonia, etc.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

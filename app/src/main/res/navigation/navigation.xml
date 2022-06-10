@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.nelsongan.dentistathome.fragments.auth.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_completeRegistrationFragment"
+            app:destination="@id/completeRegistrationFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.nelsongan.dentistathome.fragments.auth.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_completeRegistrationFragment"
+            app:destination="@id/completeRegistrationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/completeRegistrationFragment"
+        android:name="com.nelsongan.dentistathome.fragments.auth.CompleteRegistrationFragment"
+        android:label="fragment_complete_registration"
+        tools:layout="@layout/fragment_complete_registration" >
+        <action
+            android:id="@+id/action_completeRegistrationFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inspectionIndexFragment"
+        android:name="com.nelsongan.dentistathome.fragments.inspection.InspectionIndexFragment"
+        android:label="fragment_inspection_index"
+        tools:layout="@layout/fragment_inspection_index" >
+        <action
+            android:id="@+id/action_inspectionIndexFragment_to_inspectionCreateFragment"
+            app:destination="@id/inspectionCreateFragment" />
+        <action
+            android:id="@+id/action_inspectionIndexFragment_to_inspectionShowFragment"
+            app:destination="@id/inspectionShowFragment" >
+            <argument
+                android:name="inspection_id" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/inspectionCreateFragment"
+        android:name="com.nelsongan.dentistathome.fragments.inspection.InspectionCreateFragment"
+        android:label="fragment_inspection_create"
+        tools:layout="@layout/fragment_inspection_create" >
+        <action
+            android:id="@+id/action_inspectionCreateFragment_to_inspectionIndexFragment"
+            app:destination="@id/inspectionIndexFragment" />
+    </fragment>
+    <action android:id="@+id/action_global_inspectionIndexFragment" app:destination="@id/inspectionIndexFragment" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.nelsongan.dentistathome.fragments.auth.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" >
+        <action
+            android:id="@+id/action_editProfileFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <action android:id="@+id/action_global_loginFragment" app:destination="@id/loginFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.nelsongan.dentistathome.fragments.auth.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_userShowFragment"
+            app:destination="@id/userShowFragment" />
+    </fragment>
+    <action android:id="@+id/action_global_profileFragment" app:destination="@id/profileFragment" />
+    <action android:id="@+id/action_global_completeRegistrationFragment" app:destination="@id/completeRegistrationFragment" />
+    <fragment
+        android:id="@+id/inspectionShowFragment"
+        android:name="com.nelsongan.dentistathome.fragments.inspection.InspectionShowFragment"
+        android:label="fragment_inspection_show"
+        tools:layout="@layout/fragment_inspection_show" >
+        <argument android:name="inspection_id"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_inspectionShowFragment_to_userShowFragment"
+            app:destination="@id/userShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nelsongan.dentistathome.fragments.misc.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <action android:id="@+id/action_global_homeFragment" app:destination="@id/homeFragment" />
+    <fragment
+        android:id="@+id/inspectionReviewIndexFragment"
+        android:name="com.nelsongan.dentistathome.fragments.inspection.InspectionReviewIndexFragment"
+        android:label="fragment_inspection_review_index"
+        tools:layout="@layout/fragment_inspection_review_index" >
+        <action
+            android:id="@+id/action_inspectionReviewIndexFragment_to_inspectionReviewFragment"
+            app:destination="@id/inspectionReviewFragment" >
+            <argument
+                android:name="inspectionId" />
+        </action>
+    </fragment><action android:id="@+id/action_global_inspectionReviewIndexFragment" app:destination="@id/inspectionReviewIndexFragment"/>
+    <fragment
+        android:id="@+id/inspectionReviewFragment"
+        android:name="com.nelsongan.dentistathome.fragments.inspection.InspectionReviewFragment"
+        android:label="fragment_inspection_review"
+        tools:layout="@layout/fragment_inspection_review" >
+        <argument
+            android:name="inspectionId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_inspectionReviewFragment_to_inspectionReviewIndexFragment"
+            app:destination="@id/inspectionReviewIndexFragment" />
+        <action
+            android:id="@+id/action_inspectionReviewFragment_to_userShowFragment"
+            app:destination="@id/userShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/appointmentIndexFragment"
+        android:name="com.nelsongan.dentistathome.fragments.appointment.AppointmentIndexFragment"
+        android:label="fragment_appointment_index"
+        tools:layout="@layout/fragment_appointment_index" >
+        <action
+            android:id="@+id/action_appointmentIndexFragment_to_userShowFragment"
+            app:destination="@id/userShowFragment" />
+    </fragment><action android:id="@+id/action_global_appointmentIndexFragment" app:destination="@id/appointmentIndexFragment"/>
+    <fragment
+        android:id="@+id/userShowFragment"
+        android:name="com.nelsongan.dentistathome.fragments.user.UserShowFragment"
+        android:label="fragment_user_show"
+        tools:layout="@layout/fragment_user_show" >
+        <argument
+            android:name="userId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_userShowFragment_to_addReviewFragment"
+            app:destination="@id/addReviewFragment" />
+        <action
+            android:id="@+id/action_userShowFragment_self"
+            app:destination="@id/userShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addReviewFragment"
+        android:name="com.nelsongan.dentistathome.fragments.user.AddReviewFragment"
+        android:label="fragment_add_review"
+        tools:layout="@layout/fragment_add_review" >
+        <argument
+            android:name="userId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_addReviewFragment_to_userShowFragment"
+            app:destination="@id/userShowFragment" />
+    </fragment>
+</navigation>
