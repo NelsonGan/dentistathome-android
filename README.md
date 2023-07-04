@@ -1,5 +1,5 @@
 ## Description
-DentistAtHome is a comprehensive dental solution mobile app developed with Kotlin for the Android platform. Designed for patients and dentists alike, the app enables patients to easily submit digital inspection requests while providing dentists with a platform to review the requests and offer relevant consultations. The app also features a review system that allows users to share their experiences with other users, ensuring transparency and trust among its users
+DentistAtHome is a comprehensive dental solution mobile app developed with Android Kotlin. It is designed for patients and dentists, in which it enables patients to easily submit digital dental inspection requests while providing dentists with a platform to review the requests and offer relevant consultations. The app also features a review system that allows users to share their experiences with other users via ratings and comments.
 
 ## Tech Stack
 The mobile application was built with Android Kotlin, while the DBMS used is Firebase.
